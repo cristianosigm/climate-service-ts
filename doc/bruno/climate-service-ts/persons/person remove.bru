@@ -1,0 +1,19 @@
+meta {
+  name: person remove
+  type: http
+  seq: 5
+}
+
+delete {
+  url: {{baseURL}}/api/v1/persons/1
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "id": "1",
+    "firstName": "Cristiano",
+    "lastName": "Souza"
+  }
+}

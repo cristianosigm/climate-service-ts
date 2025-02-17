@@ -1,0 +1,19 @@
+meta {
+  name: equipment update
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{baseURL}}/api/v1/equipments
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "1",
+    "firstName": "Cristiano",
+    "lastName": "Souza"
+  }
+}

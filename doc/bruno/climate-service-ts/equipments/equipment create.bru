@@ -1,0 +1,19 @@
+meta {
+  name: equipment create
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseURL}}/api/v1/equipments
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "equipmentType": "Model One",
+    "name": "Something",
+    "created": "01-01-2025"
+  }
+}

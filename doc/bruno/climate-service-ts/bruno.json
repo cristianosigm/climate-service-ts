@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "climate-service-ts",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

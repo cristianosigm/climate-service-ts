@@ -1,0 +1,19 @@
+meta {
+  name: person update
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{baseURL}}/api/v1/persons
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "1",
+    "firstName": "Cristiano",
+    "lastName": "Souza"
+  }
+}
